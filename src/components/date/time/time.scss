@@ -1,0 +1,17 @@
+.currentTime {
+  display: flex;
+  color: white;
+  align-items: end;
+  font-family: 'Roboto', sans-serif;
+
+  .time {
+    font-weight: 0;
+    font-size: 80px;
+  }
+  .PM {
+    font-size: 26px;
+    margin-left: 10px;
+    font-weight: 500;
+    margin-bottom: 12px;
+  }
+}

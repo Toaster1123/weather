@@ -1,0 +1,12 @@
+.citymain {
+  color: white;
+  font-family: 'Roboto Thin';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 19px;
+  text-align: end;
+  .city {
+    font-size: 30px;
+  }
+}
