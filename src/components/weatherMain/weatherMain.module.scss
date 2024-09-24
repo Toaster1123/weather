@@ -1,10 +1,17 @@
 .weatherFooter {
-  background-color: rgba(110, 110, 110, 0.6);
+  background-color: rgba(71, 71, 71, 0.7);
   height: 31vh;
   margin-top: -31vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   .tempToday {
+    width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .tempWeek {
+    display: flex;
   }
 }

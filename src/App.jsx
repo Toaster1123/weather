@@ -1,7 +1,7 @@
 import './index.scss';
 import { CityAndCountry } from './components/city';
 import { DateAndTime } from './components/date';
-import {WeatherMain} from './components/weatherMain'
+import { WeatherMain } from './components/weatherMain';
 function App() {
   return (
     <div className="main">
@@ -12,7 +12,7 @@ function App() {
         </div>
       </div>
       <div className="weatherBottom">
-        <WeatherMain/>
+        <WeatherMain />
       </div>
     </div>
   );

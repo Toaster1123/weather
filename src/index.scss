@@ -9,25 +9,25 @@ body {
   user-select: none;
 }
 .main {
-  height: 100%;
+  background-image: url('https://stihi.ru/pics/2013/11/29/3755.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
   width: 100%;
+  max-width: 100vw;
+  height: 100%;
   .weatherTop {
-    background-color: rgb(125, 189, 209);
+    // background-color: rgb(125, 189, 209);
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     .weatherTopContent {
-      padding-top: 50px;
+      padding-top: 70px;
       width: 80%;
       display: flex;
       justify-content: space-between;
     }
   }
-  .weatherBottom {
-    height: 20vh;
-  }
-}
-.size {
-  font-size: 28px;
 }

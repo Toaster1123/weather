@@ -1,12 +1,13 @@
-import { WeatherTemp } from "../weather/temperature" 
-import { WeatherDayOfWeek } from "../weather/weatherDayWeek"
-import { WeatherPic } from "../weather/weatherPic"
-export function WeatherCardWeek(){
-    return(
-        <div className="weatherCardWeek">
-            <WeatherPic/>
-            <WeatherDayOfWeek/>
-            <WeatherTemp/>
-        </div>
-    )
+import style from './weatherCardWeek.module.scss';
+export function WeatherCardWeek(props) {
+  return (
+    <div className={style.weatherCard}>
+      <div className={style.dayOfWeekName}>{props.dayOfWeek}</div>
+      <img src={props.picture} height={90} width={90} />
+      <div className={style.weatherTempMain}>
+        <div className={style.weatherTemp}>{props.temp}</div>
+        <div className={style.weatherCels}>o</div>
+      </div>
+    </div>
+  );
 }

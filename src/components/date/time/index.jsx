@@ -28,7 +28,6 @@ export function CurrentTime() {
   return (
     <div className="currentTime">
       <div className="time">{timeL}</div>
-      <div className="PM">PM</div>
     </div>
   );
 }
