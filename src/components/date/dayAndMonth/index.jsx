@@ -15,15 +15,15 @@ export function CurrentDate() {
     11: 'Ноября',
     12: 'Декабря',
   };
-  let dayOfWeekObj = {
-    1: 'Понедельник',
-    2: 'Вторник',
-    3: 'Среда',
-    4: 'Четверг',
-    5: 'Пятница',
-    6: 'Суббота',
-    7: 'Воскресенье',
-  };
+  let dayOfWeekObj = [
+    'Воскресенье',
+    'Понедельник',
+    'Вторник',
+    'Среда',
+    'Четверг',
+    'Пятница',
+    'Суббота',
+  ];
   let numMounth = new Date().getMonth() + 1;
   let numDayOfWeek = new Date().getDay();
   return (

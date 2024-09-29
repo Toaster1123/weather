@@ -6,7 +6,9 @@
   justify-content: space-around;
   align-items: center;
   height: 130px;
-
+  img {
+    object-fit: cover;
+  }
   .dowAndTemp {
     display: flex;
     flex-direction: column;
